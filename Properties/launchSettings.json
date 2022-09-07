@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "testAutoclicker": {
+      "commandName": "Project"
+    },
+    "Profil 1": {
+      "commandName": "Project"
+    }
+  }
+}

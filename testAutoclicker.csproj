@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="broken-spiral.jpg" />
+    <None Remove="istockphoto-1194478762-170667a.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="broken-spiral.jpg" />
+    <Resource Include="istockphoto-1194478762-170667a.jpg" />
+  </ItemGroup>
+
+</Project>
